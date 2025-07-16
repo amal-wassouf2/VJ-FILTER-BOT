@@ -85,7 +85,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Cima_Paradiso_Reg_Bot')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/cimaparadiso')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/AlishHasan') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/kinanalyousef') # Support Chat Link Without https:// or @
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/kinanalyousef')
 
 # True Or False
@@ -188,6 +188,4 @@ else:
     SEC_FILE_DB_URI = S_DB_URI    # This Db is for File Data Store When First Db Is Going To Be Full.
 
 
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit 
