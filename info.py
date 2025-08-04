@@ -12,7 +12,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "8114721161:AAEVMnt2M3yb4Klgv-ashchNYF6OLl8
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', 'https://radare.arzfun.com/api/tg/photo?id=BQACAgQAAxkBAAEEX3lokP2WdzsXEJQfEWp7zpp6dxmTngACaRoAAr1riVDrj7HG_nGp3TYE')).split()
+PICS = (environ.get('PICS', 'https://radare.arzfun.com/api/tg/photo?id=AgACAgQAAxkBAAEEX35okRKnErDKQs-z5-PIPEH9y7bvOQACosoxGyzJiVDn_-Eado4KnAEAAwIAA3kAAzYE')).split()
 
 
 # Admins & Users
@@ -189,4 +189,5 @@ else:
 
 
 # Don't Remove Credit 
+
 
