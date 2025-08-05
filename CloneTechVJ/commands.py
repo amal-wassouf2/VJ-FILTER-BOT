@@ -23,7 +23,7 @@ async def start(client, message):
     cd = await db.get_bot(me.id)
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-            InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{me.username}?startgroup=true')
+            InlineKeyboardButton('Facebook', url=f'https://www.facebook.com/profile.php?id=61557540113498&mibextid=ZbWKwL')
         ]]
         if cd["update_channel_link"] != None:
             up = cd["update_channel_link"]
@@ -35,9 +35,8 @@ async def start(client, message):
         await clonedb.add_user(me.id, message.from_user.id)
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{me.username}?startgroup=true')
+            InlineKeyboardButton('facebook', url=f'https://www.facebook.com/profile.php?id=61557540113498&mibextid=ZbWKwL')
         ],[
-            InlineKeyboardButton('🕵️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('🔍 ᴀʙᴏᴜᴛ', callback_data='about')
         ]]
         if cd["update_channel_link"] != None:
