@@ -64,7 +64,7 @@ async def auto_approve(client, message: ChatJoinRequest):
         else:
             if PREMIUM_AND_REFERAL_MODE == True:
                 buttons = [[
-                    InlineKeyboardButton('⤬ facebook', url=f'https://www.facebook.com/profile.php?id=61557540113498&mibextid=ZbWKwL')
+                    InlineKeyboardButton(' facebook', url=f'https://www.facebook.com/profile.php?id=61557540113498&mibextid=ZbWKwL')
                 ],[
                     InlineKeyboardButton('instagram', url=f'https://www.instagram.com/cimaparadiso1988?igsh=MXdzc3owaGR2bHJ6MA=='),
                     InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
@@ -74,7 +74,7 @@ async def auto_approve(client, message: ChatJoinRequest):
                 ]]
             else:
                 buttons = [[
-                    InlineKeyboardButton('⤬ facebook', url=f'https://www.facebook.com/profile.php?id=61557540113498&mibextid=ZbWKwL
+                    InlineKeyboardButton('facebook', url=f'https://www.facebook.com/profile.php?id=61557540113498&mibextid=ZbWKwL'
                 ],[
                     InlineKeyboardButton('instagram', url=f'https://www.instagram.com/cimaparadiso1988?igsh=MXdzc3owaGR2bHJ6MA=='),
                     InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
