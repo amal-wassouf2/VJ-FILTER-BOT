@@ -525,7 +525,7 @@ async def start(client, message):
                     return
             await msg.edit_caption(caption=f_caption)
             btn = [[InlineKeyboardButton("✅ اعد المحاولة للحصول على الملف ✅", callback_data=f'del#{file_id}')]]
-            k = await msg.reply(text=f"تنويه  سيتم الحذف بعد 10 دقايق لهيك بعتو ع الرسائل المحفوظة او اي مكان منشان فيك ضل تشوفو 🫥"")
+            k = await msg.reply(text=f"تنويه  سيتم الحذف بعد 10 دقايق لهيك بعتو ع الرسائل المحفوظة او اي مكان منشان فيك ضل تشوفو 🫥")
             await asyncio.sleep(600)
             await msg.delete()
             await k.edit_text("المسج انمسح اذا بدك ياه مرة تانية بتعرف كيف تجيبو🙄",reply_markup=InlineKeyboardMarkup(btn))
@@ -573,7 +573,7 @@ async def start(client, message):
         reply_markup=reply_markup
     )
     btn = [[InlineKeyboardButton("✅ ɢᴇᴛ ғɪʟᴇ ᴀɢᴀɪɴ ✅", callback_data=f'del#{file_id}')]]
-    k = await msg.reply(text=f"تنويه  سيتم الحذف بعد 10 دقايق لهيك بعتو ع الرسائل المحفوظة او اي مكان منشان فيك ضل تشوفو 🫥"")
+    k = await msg.reply(text=f"تنويه  سيتم الحذف بعد 10 دقايق لهيك بعتو ع الرسائل المحفوظة او اي مكان منشان فيك ضل تشوفو 🫥")
     await asyncio.sleep(600)
     await msg.delete()
     await k.edit_text("<b>✅ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ ɪs sᴜᴄᴄᴇssғᴜʟʟʏ ᴅᴇʟᴇᴛᴇᴅ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴀɢᴀɪɴ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ</b>",reply_markup=InlineKeyboardMarkup(btn))
@@ -1380,6 +1380,7 @@ async def purge_requests(client, message):
             parse_mode=enums.ParseMode.MARKDOWN,
             disable_web_page_preview=True
         )
+
 
 
 
