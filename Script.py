@@ -255,8 +255,8 @@ Nᴀᴍᴇ - {}"""
 
 IMDb Data:
 
-<b>🏷 Title</b>: <a href={url}>{title}</a>
-🎭 Genres: {genres}
+<b>🏷 الاسم</b>: <a href={url}>{title}</a>
+🎭 النوع: {genres}
 📆 السنة: <a href={url}/releaseinfo>{year}</a>
 🌟 التقييم: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
 ☀️ اللغات : <code>{languages}</code>
@@ -754,6 +754,7 @@ Example:- /set_caption 📕 File Name: {filename}
 
 
     
+
 
 
 
