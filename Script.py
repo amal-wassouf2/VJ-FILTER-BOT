@@ -3,7 +3,7 @@
 # Ask Doubt on telegram @KingVJ01
 
 class script(object):
-    START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {} 👋,</blockquote>
+    START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {} 👋,I am ordered by @kinanalyousef,</blockquote>
     
 نرحب بك في منصة Cima Paradiso، يرجى الالتزام بالاسم الصحيح والكتابة السليمة للاستمتاع بالتجربة 🫰❤️</b>"""
 
@@ -754,6 +754,7 @@ Example:- /set_caption 📕 File Name: {filename}
 
 
     
+
 
 
 
