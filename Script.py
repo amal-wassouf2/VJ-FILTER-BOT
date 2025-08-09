@@ -219,7 +219,7 @@ Nᴀᴍᴇ - {}"""
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ..."""
 
-    MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
+    MELCOW_ENG = """<b>أهلين وسهلين معلم استمتعت بالمجموعة وادعيلنا❤️</b>"""
 
     SHORTLINK_INFO = """
 
@@ -257,12 +257,12 @@ IMDb Data:
 
 <b>🏷 Title</b>: <a href={url}>{title}</a>
 🎭 Genres: {genres}
-📆 Year: <a href={url}/releaseinfo>{year}</a>
-🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
-☀️ Languages : <code>{languages}</code>
-📀 RunTime: {runtime} Minutes
-📆 Release Info : {release_date}
-🎛 Countries : <code>{countries}</code>
+📆 السنة: <a href={url}/releaseinfo>{year}</a>
+🌟 التقييم: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
+☀️ اللغات : <code>{languages}</code>
+📀 المدة: {runtime} Minutes
+📆 تاريخ الاصدار : {release_date}
+🎛 البلدان : <code>{countries}</code>
 
 
 ⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
@@ -754,6 +754,7 @@ Example:- /set_caption 📕 File Name: {filename}
 
 
     
+
 
 
 
