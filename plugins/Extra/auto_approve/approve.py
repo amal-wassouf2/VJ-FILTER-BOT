@@ -64,23 +64,23 @@ async def auto_approve(client, message: ChatJoinRequest):
         else:
             if PREMIUM_AND_REFERAL_MODE == True:
                 buttons = [[
-                    InlineKeyboardButton(' facebook', url=f'https://www.facebook.com/profile.php?id=61557540113498&mibextid=ZbWKwL')
+                    InlineKeyboardButton(' ❁facebook❁', url=f'https://www.facebook.com/profile.php?id=61557540113498&mibextid=ZbWKwL')
                 ],[
-                    InlineKeyboardButton('instagram', url=f'https://www.instagram.com/cimaparadiso1988?igsh=MXdzc3owaGR2bHJ6MA=='),
-                    InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
+                    InlineKeyboardButton('❁instagram❁', url=f'https://www.instagram.com/cimaparadiso1988?igsh=MXdzc3owaGR2bHJ6MA=='),
+                    InlineKeyboardButton('❁ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ❁', url=GRP_LNK)
                 ],[
                    
-                    InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                    InlineKeyboardButton('❁ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ❁', url=CHNL_LNK)
                 ]]
             else:
                 buttons = [[
-                    InlineKeyboardButton('facebook', url=f'https://www.facebook.com/profile.php?id=61557540113498&mibextid=ZbWKwL')
+                    InlineKeyboardButton('❁facebook❁', url=f'https://www.facebook.com/profile.php?id=61557540113498&mibextid=ZbWKwL')
                 ],[
-                    InlineKeyboardButton('instagram', url=f'https://www.instagram.com/cimaparadiso1988?igsh=MXdzc3owaGR2bHJ6MA=='),
-                    InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
+                    InlineKeyboardButton('❁instagram❁', url=f'https://www.instagram.com/cimaparadiso1988?igsh=MXdzc3owaGR2bHJ6MA=='),
+                    InlineKeyboardButton('❁ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ❁', url=GRP_LNK)
 
                 ],[
-                    InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                    InlineKeyboardButton('❁ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ❁', url=CHNL_LNK)
                 ]]
             if CLONE_MODE == True:
                 buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
