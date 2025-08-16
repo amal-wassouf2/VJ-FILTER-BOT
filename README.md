@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.ibb.co/dJ0gpJf1/photo-2025-06-16-12-07-05-7516517596376596504.jpg" alt="VJ-Filter-Bot Logo">
+  <img src="[https://i.ibb.co/dJ0gpJf1/photo-2025-06-16-12-07-05-7516517596376596504.jpg](https://radare.arzfun.com/api/tg/photo?id=AgACAgQAAxkBAAEEZ0dooD562zO-OLVFtZSASdiliCoRJAACx8oxGzLkAVHYmZUK0-0ITwEAAwIAA3kAAzYE)" alt="Youser-Bot Logo">
 </p>
 <h1 align="center">
   VJ FILTER BOT
@@ -34,10 +34,6 @@
 - [x] Bot Pm File Auto Delete
 
 - Note : You Can Turn On Or Off Every Feature, Just Use Which Feature You Want By Turning It On.
-
-Join My <a href='https://telegram.dog/vj_botz'>Update Channel</a> For More Update Regarding Repo.</b>
-
-### How To Deploy : [Video Tutorial](https://youtu.be/3SJR7vH2kRo)
 
 ## Commands
 ```
@@ -116,7 +112,7 @@ Join My <a href='https://telegram.dog/vj_botz'>Update Channel</a> For More Updat
 * `API_HASH`: Get this value from [telegram.org](https://my.telegram.org/apps)
 * `CHANNELS`: This Is File Channel, Username or ID of channel or group. Separate multiple IDs by space
 * `ADMINS`: Username or ID of Admin. Separate multiple Admins by space
-* `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/DAHRmFdw99o)
+* `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com).
 * `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.</b>
 
 
@@ -154,21 +150,18 @@ Go to https://uptimerobot.com/ and add a monitor to keep your bot alive.
 Use these settings when adding a monitor:</b>
 <br>
 <br>
-<img src="https://telegra.ph/file/a79a156e44f43c9833b50.jpg" alt="render template">
+<img src="[https://telegra.ph/file/a79a156e44f43c9833b50.jpg](https://radare.arzfun.com/api/tg/photo?id=AgACAgQAAxkBAAEEZ0dooD562zO-OLVFtZSASdiliCoRJAACx8oxGzLkAVHYmZUK0-0ITwEAAwIAA3kAAzYE)" alt="render template">
 <br>
 <br>
 <b>Click on the below button to deploy directly to render ↓</b>
 <br>
 <br>
-<a href="https://render.com/deploy?repo=https://github.com/VJBots/VJ-Filter-Bot/tree/Tech_VJ">
-<img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
+<a src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
 </a>
 </details>
 
 <details><summary><b>Deploy To VPS</summary>
 
-
-`git clone https://github.com/VJBots/VJ-Filter-Bot`
 
 Install Packages
 
@@ -186,8 +179,8 @@ Edit info.py with variables as given below then run bot
 
 ## Thanks to 
  - <b>Thanks To [Pyrogram Library](https://github.com/pyrogram/pyrogram) & [Pyrofork Library](https://github.com/Mayuri-Chan/pyrofork)
- - Thanks To [Tech VJ](https://youtube.com/@Tech_VJ) To Modify And Add Amazing Feature In The Repo
- - Thanks To [Eva Marie](https://t.me/TeamEvamaria) For Base Repo
+ - Thanks To Modify And Add Amazing Feature In The Repo
+ - Thanks To For Base Repo
  - Thanks To All Everyone In This Journey</b>
 
 ## Note 🏷️
@@ -198,9 +191,10 @@ Edit info.py with variables as given below then run bot
 
 ## Disclaimer
 [![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
-<b>Licensed under [GNU AGPL 2.0.](https://github.com/VJBots/VJ-Filter-Bot/blob/Tech_VJ/LICENSE)
+<b>Licensed under
 Selling The Codes To Other People For Money Is *Strictly Prohibited*.</b>
 
 </pre>
 </p>
 </details>
+
