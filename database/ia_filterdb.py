@@ -1,7 +1,3 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-
 import re, base64, json
 from struct import pack
 from pyrogram.file_id import FileId
@@ -174,3 +170,4 @@ def unpack_new_file_id(new_file_id):
     )
     return file_id
     
+
