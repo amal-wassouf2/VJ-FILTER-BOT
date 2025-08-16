@@ -1,7 +1,3 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-
 import asyncio
 import logging
 from info import *
@@ -45,3 +41,4 @@ async def initialize_clients():
         print("Multi-Client Mode Enabled")
     else:
         print("No additional clients were initialized, using default client")
+
