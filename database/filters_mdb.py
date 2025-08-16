@@ -1,7 +1,3 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-
 import pymongo
 from info import OTHER_DB_URI, DATABASE_NAME
 from pyrogram import enums
@@ -117,3 +113,4 @@ async def filter_stats():
     totalcollections = len(collections)
 
     return totalcollections, totalcount
+
